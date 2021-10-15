@@ -148,6 +148,22 @@
 					<debuglevel>lines,vars,source</debuglevel>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>io.leonard.maven.plugins</groupId>
+				<artifactId>jspc-maven-plugin</artifactId>
+				<version>3.2.0</version>
+				<executions>
+					<execution>
+						<id>jspc</id>
+						<goals>
+							<goal>compile</goal>
+						</goals>
+						<configuration>
+							<suppressSmap>false</suppressSmap>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 </project>
