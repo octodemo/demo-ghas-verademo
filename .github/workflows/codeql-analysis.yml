@@ -33,6 +33,7 @@ jobs:
       uses: github/codeql-action/init@v1
       with:
         languages: ${{ matrix.language }}
+        queries: +GeekMasher/security-queries/java/CWE-079/XSSJSP.ql@main
 
     - name: Autobuild
       uses: github/codeql-action/autobuild@v1
