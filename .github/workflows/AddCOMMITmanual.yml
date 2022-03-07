@@ -68,3 +68,5 @@
     # Arguments for the git tag command (the tag name always needs to be the first word not preceded by an hyphen)
     # Default: ''
     tag: 'v1.0.0 --force'
+    
+    add: ./AUTHORINFO.txt --force
